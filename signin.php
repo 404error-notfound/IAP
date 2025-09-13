@@ -1,5 +1,7 @@
 <?php
+// Include the ClassAutoLoad Method
 require_once 'ClassAutoLoad.php';
-$ObjLayout->header($conf);
-$ObjForm->login();
-$ObjLayout->footer($conf);
+$layout->header($conf);
+print $hello->today();
+$form->login();
+$layout->footer($conf);
