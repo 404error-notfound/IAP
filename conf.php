@@ -6,7 +6,7 @@ $conf['admin_email'] = 'angela.omondi@strathmore.edu';
 
 // Database Configuration
 $conf['db_type'] = 'pdo';
-$conf['db_host'] = 'localhost';
+$conf['db_host'] = 'localhost:3307';
 $conf['db_user'] = 'root';
 $conf['db_pass'] = 'whatdoyouthink';
 $conf['db_name'] = 'gopuppygo';
